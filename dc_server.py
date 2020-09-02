@@ -5,7 +5,7 @@ import os
 from datetime import date
 from discord.ext import commands
 
-token = 'NzQ5OTkyMTk4ODAzODE2NDk5.X00Cqg.b7uytmwgAA0M_leZDmg3aSO6nDA'
+token = 'NzQ5OTkyMTk4ODAzODE2NDk5.X00Cqg.VWOYC250j6YUzw5du42-Slz1RUo'
 
 # przedrostek do
 client = commands.Bot(command_prefix = ">")
