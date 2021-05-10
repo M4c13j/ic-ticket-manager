@@ -45,7 +45,7 @@ class Bilet:
 
     # mies RRMMDD-RRMMDD
     def setup_glowny(self):
-        name = "mie" + folder(self.valid_from) + "-" + folder(self.valid_to) + ".pdf"
+        name = "mie_od_" + folder(self.valid_from) + "-do_" + folder(self.valid_to) + ".pdf"
         os.rename( self.path , name)
         '''try:
             os.mkdir(name)
@@ -63,13 +63,16 @@ class Bilet:
 
 # przelatuje folder i formatuje wszystkie pliki w nim zawarte
 def rename_folder():
-    for filename in os.listdir():
+    for filename in os.listdir("tickets/"):
         typ = filename[0:5]
         if typ == "bilet" and filename.endswith(".pdf"):
             print(filename)
             bilet = Bilet(filename)
             bilet.setup()
             print(filename,"done")
+    print("everything done!")
 
-rename_folder()
+if __name__ == "__main__":
+    rename_folder()
+
     
