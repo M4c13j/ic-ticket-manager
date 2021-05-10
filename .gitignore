@@ -1,1 +1,2 @@
-tickets/
+tickets/*
+!tickets/xd.txt
