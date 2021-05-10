@@ -14,10 +14,9 @@ Z powodu wprowadzenia obowiązku rezerwacji miejsca do biletów okresowych musia
 ## Uwaga
 Nie ponosze odpowiedzialności za wszelkie konsekwencje i błędy powstałe w wyniku wadliwego działa skryptu. Autor dołożył wszelkich starań i testował skrypt, jednak nie jest on idelany. Skrypt używany jest przez autora i stara się on dokładać wszelkich starań w celu ich wyeliminowania.
 
-## Błędy
-Proszę pilnie zgłaszać błędy na adres `maciekcx11@outlook.com`. Za wszelką pomoc z góry dziękuję.
+## Błędy i pytania
+Proszę proszę kierować na adres `maciekcx11@outlook.com`. Za wszelką pomoc z góry dziękuję.
 
 ### Format biletów
 - Miejscówka ( dodatkowy ) : dod_D-(MSCDZIEŃ)--T-(GODZ)--M--(MIEJSCE)-(WAGON).pdf
 - Miesięczny: mie_od_(WAŻNY OD)-do_(WAŻNY DO).pdf
-- 
