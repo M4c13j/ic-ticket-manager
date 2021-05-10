@@ -5,7 +5,7 @@ import os
 from datetime import date
 from discord.ext import commands
 
-token = 'YOUR_DISCORD_BOT_TOKEN'
+token = 'i_dont_show_my_token_kiddos'
 
 # przedrostek do
 client = commands.Bot(command_prefix = ">")
@@ -33,8 +33,29 @@ async def test(ctx):
     print(ctx.author)
     print(ctx.message)
     await ctx.message.delete()
+@client.command()
+async def ping(ctx):
+    await ctx.send("pong")
 
 @client.command()
+async def franoll(ctx):
+    await ctx.send("ma małego lol small pp")
+
+@client.command()
+async def penis(ctx):
+    await ctx.send("twój jest mały")
+
+@client.command()
+async def simp(ctx):
+    await ctx.send(ctx.author + " to simp")
+
+@client.command()
+async def maciek(ctx):
+    await ctx.send("ma dużego członka")
+
+
+@client.command()
+
 async def kanar(ctx):
     # stwórz embeda do danych pociągu
     embed = discord.Embed(title="Twój dzisiejszy pociąg", description="Ponieżej trochę fajnych danych")
@@ -43,7 +64,6 @@ async def kanar(ctx):
     dzis = date.today().strftime("%d/%m/%Y")
     dzis_form = dzis[3:5] + dzis[0:2]
 
-    dzis_from = "0925"
     plik = ""
     for filename in os.listdir():
         if filename[0:3] == "mie":
